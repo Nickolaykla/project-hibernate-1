@@ -1,0 +1,269 @@
+04-Dec-2025 19:44:45.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.46
+04-Dec-2025 19:44:45.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Sep 8 2025 14:26:21 UTC
+04-Dec-2025 19:44:45.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.46.0
+04-Dec-2025 19:44:45.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Dec-2025 19:44:45.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.14.0-35-generic
+04-Dec-2025 19:44:45.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+04-Dec-2025 19:44:45.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/nikolay/.jdks/openjdk-24.0.1
+04-Dec-2025 19:44:45.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            24.0.1+9-30
+04-Dec-2025 19:44:45.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+04-Dec-2025 19:44:45.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 19:44:45.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 19:44:45.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Dec-2025 19:44:45.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Dec-2025 19:44:45.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Dec-2025 19:44:45.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Dec-2025 19:44:45.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Dec-2025 19:44:45.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 19:44:45.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 19:44:45.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/nikolay/Загрузки/project-hibernate-1/temp
+04-Dec-2025 19:44:45.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/nikolay/Загрузки/project-hibernate-1/conf/logging.properties
+04-Dec-2025 19:44:45.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2025 19:44:45.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/snap/intellij-idea-community/685/lib/idea_rt.jar=44087
+04-Dec-2025 19:44:45.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-Dec-2025 19:44:45.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-Dec-2025 19:44:45.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-Dec-2025 19:44:45.783 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+04-Dec-2025 19:44:45.960 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:44:45.972 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [318] milliseconds
+04-Dec-2025 19:44:46.004 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2025 19:44:46.005 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.46]
+04-Dec-2025 19:44:46.013 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml]
+04-Dec-2025 19:44:46.860 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2025 19:44:46.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml] has finished in [872] ms
+04-Dec-2025 19:44:46.889 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:44:46.894 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [920] milliseconds
+04-Dec-2025 19:46:27.971 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:46:27.973 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2025 19:46:27.980 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:46:27.982 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:47:19.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.46
+04-Dec-2025 19:47:19.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Sep 8 2025 14:26:21 UTC
+04-Dec-2025 19:47:19.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.46.0
+04-Dec-2025 19:47:19.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Dec-2025 19:47:19.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.14.0-35-generic
+04-Dec-2025 19:47:19.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+04-Dec-2025 19:47:19.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/nikolay/.jdks/openjdk-24.0.1
+04-Dec-2025 19:47:19.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            24.0.1+9-30
+04-Dec-2025 19:47:19.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+04-Dec-2025 19:47:19.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 19:47:19.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 19:47:19.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Dec-2025 19:47:19.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Dec-2025 19:47:19.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Dec-2025 19:47:19.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Dec-2025 19:47:19.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Dec-2025 19:47:19.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 19:47:19.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 19:47:19.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/nikolay/Загрузки/project-hibernate-1/temp
+04-Dec-2025 19:47:19.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/nikolay/Загрузки/project-hibernate-1/conf/logging.properties
+04-Dec-2025 19:47:19.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2025 19:47:19.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/snap/intellij-idea-community/685/lib/idea_rt.jar=42467
+04-Dec-2025 19:47:19.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-Dec-2025 19:47:19.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-Dec-2025 19:47:19.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-Dec-2025 19:47:19.372 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+04-Dec-2025 19:47:19.534 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:47:19.542 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [292] milliseconds
+04-Dec-2025 19:47:19.566 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2025 19:47:19.566 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.46]
+04-Dec-2025 19:47:19.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml]
+04-Dec-2025 19:47:20.422 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2025 19:47:20.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml] has finished in [882] ms
+04-Dec-2025 19:47:20.457 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:47:20.462 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [919] milliseconds
+04-Dec-2025 19:47:30.089 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:47:30.090 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2025 19:47:30.097 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:47:30.100 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:50:59.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.46
+04-Dec-2025 19:50:59.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Sep 8 2025 14:26:21 UTC
+04-Dec-2025 19:50:59.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.46.0
+04-Dec-2025 19:50:59.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Dec-2025 19:50:59.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.14.0-35-generic
+04-Dec-2025 19:50:59.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+04-Dec-2025 19:50:59.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/nikolay/.jdks/openjdk-24.0.1
+04-Dec-2025 19:50:59.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            24.0.1+9-30
+04-Dec-2025 19:50:59.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+04-Dec-2025 19:50:59.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 19:50:59.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 19:50:59.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Dec-2025 19:50:59.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Dec-2025 19:50:59.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Dec-2025 19:50:59.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Dec-2025 19:50:59.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Dec-2025 19:50:59.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 19:50:59.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 19:50:59.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/nikolay/Загрузки/project-hibernate-1/temp
+04-Dec-2025 19:50:59.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/nikolay/Загрузки/project-hibernate-1/conf/logging.properties
+04-Dec-2025 19:50:59.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2025 19:50:59.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/snap/intellij-idea-community/685/lib/idea_rt.jar=44129
+04-Dec-2025 19:50:59.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-Dec-2025 19:50:59.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+04-Dec-2025 19:50:59.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+04-Dec-2025 19:50:59.062 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+04-Dec-2025 19:50:59.229 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:50:59.236 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [295] milliseconds
+04-Dec-2025 19:50:59.268 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2025 19:50:59.268 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.46]
+04-Dec-2025 19:50:59.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml]
+04-Dec-2025 19:51:00.157 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2025 19:51:00.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml] has finished in [908] ms
+04-Dec-2025 19:51:00.187 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:51:00.193 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [955] milliseconds
+04-Dec-2025 19:51:29.687 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:51:29.689 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2025 19:51:29.699 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:51:29.701 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:57:57.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.46
+04-Dec-2025 19:57:57.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Sep 8 2025 14:26:21 UTC
+04-Dec-2025 19:57:57.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.46.0
+04-Dec-2025 19:57:57.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Dec-2025 19:57:57.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.14.0-35-generic
+04-Dec-2025 19:57:57.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+04-Dec-2025 19:57:57.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/nikolay/.jdks/ms-11.0.28
+04-Dec-2025 19:57:57.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            11.0.28+6-LTS
+04-Dec-2025 19:57:57.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Microsoft
+04-Dec-2025 19:57:57.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 19:57:57.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 19:57:57.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Dec-2025 19:57:57.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Dec-2025 19:57:57.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Dec-2025 19:57:57.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Dec-2025 19:57:57.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Dec-2025 19:57:57.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 19:57:57.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 19:57:57.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/nikolay/Загрузки/project-hibernate-1/temp
+04-Dec-2025 19:57:57.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/nikolay/Загрузки/project-hibernate-1/conf/logging.properties
+04-Dec-2025 19:57:57.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2025 19:57:57.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/snap/intellij-idea-community/685/lib/idea_rt.jar=43845
+04-Dec-2025 19:57:57.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-Dec-2025 19:57:57.653 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+04-Dec-2025 19:57:57.827 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:57:57.844 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [343] milliseconds
+04-Dec-2025 19:57:57.885 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2025 19:57:57.885 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.46]
+04-Dec-2025 19:57:57.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml]
+04-Dec-2025 19:57:57.932 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [/home/nikolay/Загрузки/project-hibernate-1/target/classes] which is part of the web application []
+04-Dec-2025 19:57:58.852 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2025 19:57:58.882 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml] has finished in [990] ms
+04-Dec-2025 19:57:58.885 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 19:57:58.890 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1045] milliseconds
+04-Dec-2025 20:03:24.826 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:03:24.830 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2025 20:03:24.845 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:03:24.853 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:04:40.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.46
+04-Dec-2025 20:04:40.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Sep 8 2025 14:26:21 UTC
+04-Dec-2025 20:04:40.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.46.0
+04-Dec-2025 20:04:40.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Dec-2025 20:04:40.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.14.0-35-generic
+04-Dec-2025 20:04:40.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+04-Dec-2025 20:04:40.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/nikolay/.jdks/ms-11.0.28
+04-Dec-2025 20:04:40.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            11.0.28+6-LTS
+04-Dec-2025 20:04:40.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Microsoft
+04-Dec-2025 20:04:40.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 20:04:40.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 20:04:40.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Dec-2025 20:04:40.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Dec-2025 20:04:40.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Dec-2025 20:04:40.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Dec-2025 20:04:40.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Dec-2025 20:04:40.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 20:04:40.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 20:04:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/nikolay/Загрузки/project-hibernate-1/temp
+04-Dec-2025 20:04:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/nikolay/Загрузки/project-hibernate-1/conf/logging.properties
+04-Dec-2025 20:04:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2025 20:04:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/snap/intellij-idea-community/685/lib/idea_rt.jar=43471
+04-Dec-2025 20:04:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-Dec-2025 20:04:40.701 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+04-Dec-2025 20:04:40.911 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:04:40.925 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [379] milliseconds
+04-Dec-2025 20:04:40.951 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2025 20:04:40.951 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.46]
+04-Dec-2025 20:04:40.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml]
+04-Dec-2025 20:04:40.991 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [/home/nikolay/Загрузки/project-hibernate-1/target/classes] which is part of the web application []
+04-Dec-2025 20:04:41.846 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2025 20:04:41.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml] has finished in [918] ms
+04-Dec-2025 20:04:41.880 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:04:41.886 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [961] milliseconds
+04-Dec-2025 20:05:08.770 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:05:08.772 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2025 20:05:08.790 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:05:08.797 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:08:10.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.46
+04-Dec-2025 20:08:10.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Sep 8 2025 14:26:21 UTC
+04-Dec-2025 20:08:10.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.46.0
+04-Dec-2025 20:08:10.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Dec-2025 20:08:10.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.14.0-35-generic
+04-Dec-2025 20:08:10.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+04-Dec-2025 20:08:10.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/nikolay/.jdks/ms-11.0.28
+04-Dec-2025 20:08:10.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            11.0.28+6-LTS
+04-Dec-2025 20:08:10.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Microsoft
+04-Dec-2025 20:08:10.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 20:08:10.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 20:08:10.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Dec-2025 20:08:10.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Dec-2025 20:08:10.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Dec-2025 20:08:10.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Dec-2025 20:08:10.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Dec-2025 20:08:10.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 20:08:10.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 20:08:10.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/nikolay/Загрузки/project-hibernate-1/temp
+04-Dec-2025 20:08:10.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/nikolay/Загрузки/project-hibernate-1/conf/logging.properties
+04-Dec-2025 20:08:10.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2025 20:08:10.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/snap/intellij-idea-community/685/lib/idea_rt.jar=45321
+04-Dec-2025 20:08:10.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-Dec-2025 20:08:10.523 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+04-Dec-2025 20:08:10.685 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:08:10.697 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [311] milliseconds
+04-Dec-2025 20:08:10.730 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2025 20:08:10.730 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.46]
+04-Dec-2025 20:08:10.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml]
+04-Dec-2025 20:08:10.786 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [/home/nikolay/Загрузки/project-hibernate-1/target/classes] which is part of the web application []
+04-Dec-2025 20:08:11.660 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2025 20:08:11.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml] has finished in [953] ms
+04-Dec-2025 20:08:11.695 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:08:11.701 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1003] milliseconds
+04-Dec-2025 20:08:28.346 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:08:28.347 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2025 20:08:28.355 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:08:28.357 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:12:40.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.46
+04-Dec-2025 20:12:40.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Sep 8 2025 14:26:21 UTC
+04-Dec-2025 20:12:40.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.46.0
+04-Dec-2025 20:12:40.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Dec-2025 20:12:40.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.14.0-35-generic
+04-Dec-2025 20:12:40.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+04-Dec-2025 20:12:40.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/nikolay/.jdks/ms-11.0.28
+04-Dec-2025 20:12:40.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            11.0.28+6-LTS
+04-Dec-2025 20:12:40.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Microsoft
+04-Dec-2025 20:12:40.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 20:12:40.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 20:12:40.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Dec-2025 20:12:40.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Dec-2025 20:12:40.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Dec-2025 20:12:40.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Dec-2025 20:12:40.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Dec-2025 20:12:40.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/nikolay/Загрузки/apache-tomcat-10.1.46
+04-Dec-2025 20:12:40.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/nikolay/Загрузки/project-hibernate-1
+04-Dec-2025 20:12:40.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/nikolay/Загрузки/project-hibernate-1/temp
+04-Dec-2025 20:12:40.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/nikolay/Загрузки/project-hibernate-1/conf/logging.properties
+04-Dec-2025 20:12:40.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Dec-2025 20:12:40.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/snap/intellij-idea-community/685/lib/idea_rt.jar=46077
+04-Dec-2025 20:12:40.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+04-Dec-2025 20:12:40.711 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+04-Dec-2025 20:12:40.901 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:12:40.914 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [350] milliseconds
+04-Dec-2025 20:12:40.943 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Dec-2025 20:12:40.944 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.46]
+04-Dec-2025 20:12:40.951 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml]
+04-Dec-2025 20:12:40.992 WARNING [main] org.apache.catalina.webresources.DirResourceSet.initInternal Disabled the global canonical file name cache to protect against CVE-2024-56337 when starting the WebResourceSet at [/home/nikolay/Загрузки/project-hibernate-1/target/classes] which is part of the web application []
+04-Dec-2025 20:12:41.899 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Dec-2025 20:12:41.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/nikolay/Загрузки/project-hibernate-1/conf/Catalina/localhost/ROOT.xml] has finished in [981] ms
+04-Dec-2025 20:12:41.937 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:12:41.944 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1029] milliseconds
+04-Dec-2025 20:12:46.369 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:12:46.370 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Dec-2025 20:12:46.380 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Dec-2025 20:12:46.383 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
