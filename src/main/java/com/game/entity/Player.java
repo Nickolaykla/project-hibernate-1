@@ -5,10 +5,11 @@ import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(schema = "rpg", name = "player")
+@Table(name = "player")
 @org.hibernate.annotations.NamedQuery(name = "count", query = "SELECT COUNT(*) FROM Player")
 public class Player {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(nullable = false, length = 12)
@@ -18,9 +19,11 @@ public class Player {
     private String title;
 
     @Enumerated(EnumType.ORDINAL)
+    @Column(nullable = false)
     private Race race;
 
     @Enumerated(EnumType.ORDINAL)
+    @Column(nullable = false)
     private Profession profession;
 
     @Column(nullable = false)

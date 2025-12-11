@@ -23,23 +23,22 @@ public class PlayerRepositoryDB implements IPlayerRepository {
 
     public PlayerRepositoryDB() {
         Properties properties = new Properties();
-        properties.put(Environment.DRIVER, "com.mysql.jdbc.Driver");
-        properties.put(Environment.URL, "jdbc:mysql://localhost:3306");
+        properties.put(Environment.DIALECT, "org.hibernate.dialect.MySQL8Dialect");
+        properties.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
+        properties.put(Environment.URL, "jdbc:mysql://localhost:3306/rpg");
         properties.put(Environment.USER, "root");
-        properties.put(Environment.PASS, "root");
+        properties.put(Environment.PASS, "Klassik36403549_nickolay");
         properties.put(Environment.HBM2DDL_AUTO, "update");
         sessionFactory = new Configuration()
-                            .setProperties(properties)
                             .addAnnotatedClass(Player.class)
-                            .addAnnotatedClass(Profession.class)
-                            .addAnnotatedClass(Race.class)
+                            .addProperties(properties)
                             .buildSessionFactory();
     }
 
     @Override
     public List<Player> getAll(int pageNumber, int pageSize) {
         try (Session session = sessionFactory.openSession()) {
-            NativeQuery<Player> query = session.createNativeQuery("SELECT FROM player", Player.class);
+            NativeQuery<Player> query = session.createNativeQuery("SELECT * FROM player", Player.class);
             query.setFirstResult(pageNumber * pageSize);
             query.setMaxResults(pageSize);
             return query.list();
