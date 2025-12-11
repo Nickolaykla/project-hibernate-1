@@ -2,3 +2,5 @@
 /target
 *.iml
 /lib
+logs
+.smarttomcat
