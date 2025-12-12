@@ -5,3 +5,4 @@
 logs
 .smarttomcat
 conf
+conf/Catalina/localhost/ROOT.xml

@@ -5,11 +5,12 @@ import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "player")
-@org.hibernate.annotations.NamedQuery(name = "count", query = "SELECT COUNT(*) FROM Player")
+@Table(schema = "rpg", name = "player")
+@org.hibernate.annotations.NamedQuery(name = "count", query = "SELECT COUNT(p) FROM Player p")
 public class Player {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(nullable = false)
     private Long id;
 
     @Column(nullable = false, length = 12)

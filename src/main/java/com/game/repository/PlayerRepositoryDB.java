@@ -1,8 +1,6 @@
 package com.game.repository;
 
 import com.game.entity.Player;
-import com.game.entity.Profession;
-import com.game.entity.Race;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -38,7 +36,7 @@ public class PlayerRepositoryDB implements IPlayerRepository {
     @Override
     public List<Player> getAll(int pageNumber, int pageSize) {
         try (Session session = sessionFactory.openSession()) {
-            NativeQuery<Player> query = session.createNativeQuery("SELECT * FROM player", Player.class);
+            NativeQuery<Player> query = session.createNativeQuery("SELECT * FROM rpg.player", Player.class);
             query.setFirstResult(pageNumber * pageSize);
             query.setMaxResults(pageSize);
             return query.list();
